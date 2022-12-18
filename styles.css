@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(93, 206, 200)
+}
+body{
+    text-align: center;
+    background-color: rgb(31, 30, 30);
+}
+h1{
+    font-size: 7vh;
+    margin-top: 2em;
+}
+.container{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 90px;
+    top: 50%;
+    left: 47%;
+    position: absolute;
+    font-weight: bold;
+    transform: translate(-50% -50%);
+}
+@media screen {
+    .h1{
+        font-size: 70px;
+    }
+    .container{
+        font-size: 60px;
+        margin: auto -2.6em;
+    }
+}
