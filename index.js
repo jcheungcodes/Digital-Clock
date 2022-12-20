@@ -16,7 +16,7 @@ function timeDisplay(){
         ToD.innerHTML = "AM"
     }
     
-    if(hr > 12){
+    if(hr >= 12){
         hr = hr - 12
     }
 
